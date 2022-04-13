@@ -11,7 +11,7 @@ const NumberFacts = () => {
   return (
     <>
       <SetNumber count={count} handleChange={handleChange} />
-      <DisplayFact count={count} />
+      <DisplayFact count={count} factType="romanNumerals" />
     </>
   );
 };
