@@ -1,7 +1,7 @@
 import React from "react";
 import { fizzBuzz, convertToRomanNumerals } from "./DisplayFactHelpers";
 
-let facts = {
+const facts = {
   fizzBuzz: { header: "FizzBuzz", function: fizzBuzz },
   romanNumerals: { header: "Roman Numerals", function: convertToRomanNumerals },
 };
